@@ -1,0 +1,6 @@
+faiss-cpu==1.8.0.post1
+sentence-transformers==3.0.1
+numpy>=1.25,<2
+pypdf>=4.2.0
+tqdm>=4.66
+ollama>=0.3.0
