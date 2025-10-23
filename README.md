@@ -25,6 +25,16 @@ pip install -r requirements.txt
 
 In project folder add a folder called "docs" and put pdf or txt files into it.
 
+## Commands Available:
+- ingest: Build the FAISS index from docs folder provided
+- search: Inspect retrieved chunks
+- ask: Get reasoning answer
+- summarize: Optional part of Task 1
+
+## Arguments Available:
+- k: Number of chunks to retrieve for context before calling the LLM.
+- json: Prints the full structured JSON output.
+
 ```
 python src/main.py ingest docs
 python src/main.py ask "INSERT YOUR QUESTION HERE" --k 5 --json
